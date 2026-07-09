@@ -333,16 +333,16 @@ function Index() {
           </p>
           <div className="mb-24 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
             <a
-              href="mailto:hola@lumina.design"
+              href="mailto:luminadesign.atencion@gmail.com"
               className="text-xl font-medium border-b-2 border-[color:var(--accent-blue)] pb-1 transition-colors hover:text-[color:var(--accent-blue)] md:text-2xl"
             >
-              hola@lumina.design
+              luminadesign.atencion@gmail.com
             </a>
             <a
-              href="mailto:luminadesign.atencion@gmail.com"
+              href="https://wa.me/5491100000000"
               className="text-xl font-medium border-b-2 border-[color:var(--accent-purple)] pb-1 transition-colors hover:text-[color:var(--accent-purple)] md:text-2xl"
             >
-              luminadesign.atencion@gmail.com
+              WhatsApp
             </a>
           </div>
           <div className="flex flex-col items-center justify-between gap-6 border-t border-border pt-8 text-sm text-muted-foreground md:flex-row">
