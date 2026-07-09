@@ -339,10 +339,10 @@ function Index() {
               hola@lumina.design
             </a>
             <a
-              href="https://wa.me/5491100000000"
+              href="mailto:luminadesign.atencion@gmail.com"
               className="text-xl font-medium border-b-2 border-[color:var(--accent-purple)] pb-1 transition-colors hover:text-[color:var(--accent-purple)] md:text-2xl"
             >
-              WhatsApp
+              luminadesign.atencion@gmail.com
             </a>
           </div>
           <div className="flex flex-col items-center justify-between gap-6 border-t border-border pt-8 text-sm text-muted-foreground md:flex-row">
