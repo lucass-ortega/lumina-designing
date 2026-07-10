@@ -331,7 +331,7 @@ function Index() {
             <a
               href="https://wa.me/5491148887839"
               aria-label="WhatsApp"
-              className="inline-flex items-center justify-center rounded-full bg-[#25D366] p-3.5 text-white shadow-lg transition-transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-[#25D366] focus:ring-offset-2 focus:ring-offset-background"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[color:var(--accent-blue)] to-[color:var(--accent-purple)] p-3.5 text-white shadow-[0_0_30px_rgba(75,107,255,0.45)] transition-all hover:scale-110 hover:shadow-[0_0_45px_rgba(168,85,247,0.55)] focus:outline-none focus:ring-2 focus:ring-[color:var(--accent-purple)] focus:ring-offset-2 focus:ring-offset-background"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
