@@ -181,16 +181,6 @@ function Index() {
             </a>
           </div>
 
-          {/* Logo mark under hero */}
-          <div className="mt-24 flex justify-center opacity-90">
-            <img
-              src={logo}
-              alt="Lumina Design"
-              width={220}
-              height={220}
-              className="h-40 w-40 object-contain"
-            />
-          </div>
         </div>
       </section>
 
