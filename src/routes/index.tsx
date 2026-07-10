@@ -324,9 +324,18 @@ function Index() {
           <div className="mb-24 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
             <a
               href="mailto:luminadesign.atencion@gmail.com"
-              className="text-xl font-medium border-b-2 border-[color:var(--accent-blue)] pb-1 transition-colors hover:text-[color:var(--accent-blue)] md:text-2xl"
+              aria-label="Gmail"
+              className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-[color:var(--accent-blue)] to-[color:var(--accent-purple)] p-3.5 text-white shadow-[0_0_30px_rgba(75,107,255,0.45)] transition-all hover:scale-110 hover:shadow-[0_0_45px_rgba(168,85,247,0.55)] focus:outline-none focus:ring-2 focus:ring-[color:var(--accent-purple)] focus:ring-offset-2 focus:ring-offset-background"
             >
-              luminadesign.atencion@gmail.com
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="h-7 w-7"
+                aria-hidden="true"
+              >
+                <path d="M22 6.5V17c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6.5l10 6.5 10-6.5zM2 4.5C2 3.7 2.7 3 3.5 3h17c.8 0 1.5.7 1.5 1.5L12 11.5 2 4.5z" />
+              </svg>
             </a>
             <a
               href="https://wa.me/5491148887839"
