@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/theme-toggle";
 import logo from "@/assets/lumina-logo.png";
 import illusWeb from "@/assets/illus-web.jpg";
 import illusAutomation from "@/assets/illus-automation.jpg";
@@ -138,7 +139,9 @@ function Nav() {
           >
             Hablemos
           </a>
+          <ThemeToggle />
         </div>
+        <ThemeToggle className="md:hidden" />
       </div>
     </nav>
   );
@@ -156,7 +159,7 @@ function Index() {
           style={{ animation: "pulse-glow 4s ease-in-out infinite" }}
         />
         <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-white/5 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.25em] text-[color:var(--accent-blue)] font-mono">
+          <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-foreground/5 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.25em] text-[color:var(--accent-blue)] font-mono">
             <span className="h-1.5 w-1.5 rounded-full bg-[color:var(--accent-blue)]" />
             Digital Studio · Argentina
           </div>
