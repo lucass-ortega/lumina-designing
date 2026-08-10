@@ -81,10 +81,10 @@ const services: Service[] = [
 ];
 
 const process = [
-  { step: "01", label: "Descubrimiento", copy: "Auditamos tu negocio y mapeamos los cuellos de botella reales." },
-  { step: "02", label: "Estrategia", copy: "Definimos el ecosistema digital ideal y priorizamos por impacto." },
-  { step: "03", label: "Ejecución", copy: "Diseñamos, desarrollamos y automatizamos en sprints rápidos." },
-  { step: "04", label: "Optimización", copy: "Medimos, iteramos y escalamos lo que funciona." },
+  { step: "01", label: "Descubrimiento", copy: "Entendemos qué impide vender." },
+  { step: "02", label: "Estrategia", copy: "Construimos el camino de conversión." },
+  { step: "03", label: "Ejecución", copy: "Implementamos el sistema." },
+  { step: "04", label: "Optimización", copy: "Medimos y mejoramos las ventas." },
 ];
 
 function StarSpark({ className = "" }: { className?: string }) {
