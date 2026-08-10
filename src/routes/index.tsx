@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "@/components/theme-toggle";
 import logo from "@/assets/lumina-logo.png";
 import illusWeb from "@/assets/illus-web.jpg";
 import illusAutomation from "@/assets/illus-automation.jpg";
