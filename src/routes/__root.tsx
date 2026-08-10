@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Lumina Design — Diseño, desarrollo y automatización digital" },
-      { name: "description", content: "Estudio digital que diseña, desarrolla y automatiza sistemas para escalar tu negocio: web, SEO, branding, UX/UI e integraciones." },
+      { name: "description", content: "Lumina es un estudio digital en Argentina especializado en diseño web, SEO, Meta Ads y automatización. Creamos sistemas digitales pensados para convertir visitas en clientes." },
       { name: "author", content: "Lumina Design" },
       { property: "og:title", content: "Lumina Design — Diseño, desarrollo y automatización digital" },
       { property: "og:description", content: "Estudio digital que diseña, desarrolla y automatiza sistemas para escalar tu negocio: web, SEO, branding, UX/UI e integraciones." },
